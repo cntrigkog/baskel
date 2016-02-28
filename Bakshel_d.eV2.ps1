@@ -2,8 +2,8 @@
 Script to "enhance" all windows executables 
 **** Chris N 
  #>
-#$path = "C:\Users\work\Desktop\test32"  # Local Path to scan
-$path = $args[0]
+ 
+$path = $args[0] #the path
 
 function UnZIPFile($file, $destination)
 {
